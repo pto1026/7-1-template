@@ -7,6 +7,7 @@ import Features from "../components/features";
 import ImageBox from "../components/img-box";
 import StatBox from '../components/stat-box';
 import AboutUs from '../components/about-us';
+import AboutSection from '../components/about-section';
 import StatsSection from '../components/stats-section';
 
 export default function Home() {
@@ -38,7 +39,7 @@ export default function Home() {
       <main>
         <AboutSection />
         <StatsSection />
-        <section className="section-features container margin-bottom-120">
+        <section className="section-features container u-margin-bottom-120">
           <div className="section-features__header u-text-center">
             <div className="u-text-main">
               <h2 className="heading-secondary u-margin-bottom-20">

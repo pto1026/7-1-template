@@ -1,3 +1,5 @@
+import ButtonOutline from './button-outline';
+
 export default function AboutSection() {
   return (
     <section className="about u-margin-bottom-96">

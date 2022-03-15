@@ -1,0 +1,21 @@
+.stats-box {
+    display: flex;
+    flex-wrap: wrap;
+
+    &__stat {
+        flex: 0 0 calc((100% - 3rem) / 2);
+        margin-bottom: 2.4rem;
+        font-size: 3.2rem;
+    }
+
+    &__symbol {
+        color: var(--main-color);
+        font-weight: 500;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        display: block;
+
+    }
+}
