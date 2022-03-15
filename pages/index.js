@@ -3,7 +3,11 @@ import Head from "next/head";
 import ButtonPrimary from "../components/button-primary";
 import ButtonOutline from "../components/button-outline";
 import Feature from "../components/feature";
-import Features from '../components/features';
+import Features from "../components/features";
+import ImageBox from "../components/img-box";
+import StatBox from '../components/stat-box';
+import AboutUs from '../components/about-us';
+import StatsSection from '../components/stats-section';
 
 export default function Home() {
   return (
@@ -32,59 +36,9 @@ export default function Home() {
         />
       </div>
       <main>
-        <section className="about u-margin-bottom-96">
-          <div className="about__left">
-            <img
-              className="about__image"
-              src="imgs/about-image.jpg"
-              alt="Picture of keyboard representing prgramming"
-            />
-          </div>
-          <div className="about__box u-text-white u-text-center">
-            <h2 className="heading-secondary u-margin-bottom-20 ">
-              CSS files included
-            </h2>
-            <h3 className="heading-tertiary u-margin-bottom-30">
-              Get the CSS files, all included with customizable options.
-            </h3>
-            <p className="about__paragraph u-margin-bottom-20">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
-              enim laboriosam ratione doloribus fuga quis asperiores?
-            </p>
-            <ButtonOutline href="#">Try now for free</ButtonOutline>
-          </div>
-        </section>
-        <section className="stats u-margin-top-120 u-margin-bottom-96">
-          <p className="stats__stat">
-            100<span className="stats__symbol">+</span>
-            <span className="stats__content u-margin-top-20">
-              Unique content <br />
-              blocks
-            </span>
-          </p>
-          <p className="stats__stat">
-            25<span className="stats__symbol">+</span>
-            <span className="stats__content u-margin-top-20">
-              Carefully crafted <br />
-              pages
-            </span>
-          </p>
-          <p className="stats__stat">
-            &#60;24 <span className="stats__symbol">hours</span>
-            <span className="stats__content u-margin-top-20">
-              Average support <br />
-              time
-            </span>
-          </p>
-          <p className="stats__stat">
-            99<span className="stats__symbol">%</span>
-            <span className="stats__content u-margin-top-20">
-              Customer <br />
-              satisfaction
-            </span>
-          </p>
-        </section>
-        <section className="section-features container">
+        <AboutSection />
+        <StatsSection />
+        <section className="section-features container margin-bottom-120">
           <div className="section-features__header u-text-center">
             <div className="u-text-main">
               <h2 className="heading-secondary u-margin-bottom-20">
@@ -96,6 +50,10 @@ export default function Home() {
             </h3>
           </div>
           <Features />
+        </section>
+        <section className="section-about-us container">
+          <ImageBox />
+          <AboutUs />
         </section>
       </main>
     </React.Fragment>
