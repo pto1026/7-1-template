@@ -30,7 +30,7 @@ export default function Home() {
         />
       </div>
       <main>
-        <section className="about container">
+        <section className="about">
           <div className="about__left">
             <img
               className="about__image"
