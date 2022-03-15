@@ -1,0 +1,21 @@
+.btn {
+  &:link,
+  &:visited {
+    font-size: 1.8rem;
+    padding: 1.5rem 3rem;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 1.1rem;
+    transition: all .2s;
+    display: inline-block;
+  }
+
+  &--primary:link, &--primary:visited {
+      background-color: var(--main-color);
+      color: #fff;
+  }
+
+  &--primary:hover, &--primary:active {
+      background-color: var(--main-color-dark);
+  }
+}

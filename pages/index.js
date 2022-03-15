@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import Button from '../components/button';
+import ButtonPrimary from "../components/button-primary";
 
 export default function Home() {
   return (
@@ -15,9 +15,7 @@ export default function Home() {
         <h1 className="heading-primary u-margin-bottom-48">
           Build beautiful, high-retaining websites with Elite.
         </h1>
-        <div className="btn--primary">
-          <Button href="#">Buy now</Button>
-        </div>
+        <ButtonPrimary href="#">Buy now</ButtonPrimary>
       </div>
     </React.Fragment>
   );
