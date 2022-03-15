@@ -1,7 +1,9 @@
 import React from "react";
 import Head from "next/head";
 import ButtonPrimary from "../components/button-primary";
-import ButtonOutline from '../components/button-outline';
+import ButtonOutline from "../components/button-outline";
+import Feature from "../components/feature";
+import Features from '../components/features';
 
 export default function Home() {
   return (
@@ -54,17 +56,46 @@ export default function Home() {
         </section>
         <section className="stats u-margin-top-120 u-margin-bottom-96">
           <p className="stats__stat">
-            100<span className="stats__symbol">+</span><span className="stats__content u-margin-top-20">Unique content <br />blocks</span>
+            100<span className="stats__symbol">+</span>
+            <span className="stats__content u-margin-top-20">
+              Unique content <br />
+              blocks
+            </span>
           </p>
           <p className="stats__stat">
-            25<span className="stats__symbol">+</span><span className="stats__content u-margin-top-20">Carefully crafted <br />pages</span>
+            25<span className="stats__symbol">+</span>
+            <span className="stats__content u-margin-top-20">
+              Carefully crafted <br />
+              pages
+            </span>
           </p>
           <p className="stats__stat">
-            &#60;24 <span className="stats__symbol">hours</span><span className="stats__content u-margin-top-20">Average support <br />time</span>
+            &#60;24 <span className="stats__symbol">hours</span>
+            <span className="stats__content u-margin-top-20">
+              Average support <br />
+              time
+            </span>
           </p>
           <p className="stats__stat">
-            99<span className="stats__symbol">%</span><span className="stats__content u-margin-top-20">Customer <br />satisfaction</span>
+            99<span className="stats__symbol">%</span>
+            <span className="stats__content u-margin-top-20">
+              Customer <br />
+              satisfaction
+            </span>
           </p>
+        </section>
+        <section className="section-features container">
+          <div className="section-features__header u-text-center">
+            <div className="u-text-main">
+              <h2 className="heading-secondary u-margin-bottom-20">
+                Product Feature Page
+              </h2>
+            </div>
+            <h3 className="heading-tertiary u-margin-bottom-48">
+              Make more out of your content
+            </h3>
+          </div>
+          <Features />
         </section>
       </main>
     </React.Fragment>

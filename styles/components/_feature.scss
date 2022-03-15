@@ -1,0 +1,22 @@
+.feature {
+    flex: 0 0 calc((100% - 2* 6rem) / 3);
+
+    &__icon {
+        display: inline-block;
+        background-color: var(--main-color-dark);
+        border-radius: 1.1rem;
+        width: 2.4rem;
+        height: 2.4rem;
+        padding: 1.6rem;
+        box-sizing: content-box;
+        margin-bottom: 2rem;
+    }
+
+    &__text {}
+
+    &__description {
+        margin-top: 1.8rem;
+        font-size: 1.8rem;
+        line-height: 1.7;
+    }
+}
