@@ -1,0 +1,20 @@
+.about {
+    display: flex;
+    gap: 4.8rem;
+
+    align-items: center;
+
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__image {
+        width: 65%;
+
+    }
+
+    &__box {
+        flex: 0 0 calc((100% - 4.8rem) / 2);
+    }
+}
