@@ -5,6 +5,7 @@
     &__stat {
         flex: 0 0 calc((100% - 3rem) / 2);
         font-size: 3.2rem;
+        font-weight: 500;
     }
 
     &__symbol {
@@ -15,6 +16,7 @@
     &__text {
         font-size: 1.8rem;
         display: block;
+        font-weight: 400;
 
     }
 }
