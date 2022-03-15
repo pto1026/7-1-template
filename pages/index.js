@@ -54,7 +54,7 @@ export default function Home() {
             <ButtonOutline href="#">Try now for free</ButtonOutline>
           </div>
         </section>
-        <section className="stats u-margin-top-120 u-margin-bottom-96">
+        <section className="stats u-margin-top-120 u-margin-bottom-200">
           <p className="stats__stat">
             100<span className="stats__symbol">+</span>
             <span className="stats__content u-margin-top-20">
