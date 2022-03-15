@@ -43,7 +43,7 @@ export default function Home() {
           <div className="section-features__header u-text-center">
             <div className="u-text-main">
               <h2 className="heading-secondary u-margin-bottom-20">
-                Product Feature Page
+                Product Feature Grid
               </h2>
             </div>
             <h3 className="heading-tertiary u-margin-bottom-48">
@@ -55,6 +55,18 @@ export default function Home() {
         <section className="section-about-us container u-margin-bottom-120">
           <ImageBox />
           <AboutUs />
+        </section>
+        <section className="section-product-features container u-padding-top-48">
+          <div className="section-product-features__header u-text-center">
+            <div className="u-text-main">
+              <h2 className="heading-secondary u-margin-bottom-32">
+                Product Features
+              </h2>
+            </div>
+            <h3 className="heading-tertiary u-margin-bottom-48">
+            Make your vision better than the others
+            </h3>
+          </div>
         </section>
       </main>
     </React.Fragment>
