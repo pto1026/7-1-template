@@ -1,0 +1,23 @@
+.quote {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+
+    &__profile-image {
+        width: 7.5rem;
+        height: 7.5rem;
+        border-radius: 50%;
+    }
+
+    &__text-box {}
+
+    &__paragraph {
+        font-size: 1.8rem;
+        margin-bottom: 1.2rem;
+    }
+
+    &__name {
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}

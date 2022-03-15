@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <Features />
         </section>
-        <section className="section-about-us container">
+        <section className="section-about-us container u-margin-bottom-120">
           <ImageBox />
           <AboutUs />
         </section>

@@ -1,3 +1,4 @@
+import Quote from './quote';
 import StatBox from './stat-box';
 
 export default function AboutUs() {
@@ -14,6 +15,7 @@ export default function AboutUs() {
         corporis nam laudantium earum praesentium beatae.
       </p>
       <StatBox />
+      <Quote />
     </div>
   );
 }
