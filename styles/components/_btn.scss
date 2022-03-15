@@ -2,6 +2,7 @@
   &:link,
   &:visited {
     font-size: 1.8rem;
+    font-weight: 600;
     padding: 1.5rem 3rem;
     text-decoration: none;
     color: inherit;
@@ -17,5 +18,16 @@
 
   &--primary:hover, &--primary:active {
       background-color: var(--main-color-dark);
+  }
+
+  &--outline:link, &--outline:visited {
+    background-color: var(--gray-0);
+    color: var(--main-color);
+    
+  }
+
+  &--outline:hover, &--outline:active {
+    background-color: var(--main-color-darkest);
+    color: var(--main-color-lightest);
   }
 }

@@ -22,4 +22,12 @@
   &-margin-bottom-30 {
     margin-bottom: 3rem;
   }
+
+  &-text-white {
+    color: #fff;
+  }
+
+  &-text-main {
+    color: var(--main-color);
+  }
 }

@@ -2,7 +2,7 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-    color: var(--main-color-light);
+    color: inherit;
     font-weight: 600;
 }
 
@@ -13,5 +13,5 @@
 .heading-tertiary {
     font-size: 3rem;
     letter-spacing: 1px;
-    
+    font-weight: 600;
 }
