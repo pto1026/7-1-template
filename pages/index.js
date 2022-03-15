@@ -27,7 +27,7 @@ export default function Home() {
         />
       </div>
       <main>
-        <section className="about container">
+        <section className="about container u-margin-top-48">
           <div className="about__left">
             <img
               className="about__image"
@@ -36,7 +36,7 @@ export default function Home() {
             />
           </div>
           <div className="about__box u-text-white">
-            <h2 className="heading-secondary u-margin-bottom-20">
+            <h2 className="heading-secondary u-margin-bottom-20 ">
               CSS files included
             </h2>
             <h3 className="heading-tertiary u-margin-bottom-30">
