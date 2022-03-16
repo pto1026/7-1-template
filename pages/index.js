@@ -10,7 +10,8 @@ import AboutUs from "../components/about-us";
 import AboutSection from "../components/about-section";
 import StatsSection from "../components/stats-section";
 import FeaturesBtns from "../components/features-btns";
-import Quote from '../components/quote';
+import Quote from "../components/quote";
+import ProductFeature from "../components/product-feature";
 
 export default function Home() {
   return (
@@ -73,31 +74,8 @@ export default function Home() {
           <div className="section-product-features__toggle u-margin-bottom-96">
             <FeaturesBtns />
           </div>
-          <div className="product-feature">
-            <div className="product-feature__text-col">
-              <div className="u-text-main u-margin-bottom-24">
-                <h2 className="heading-secondary">Product Feature 1</h2>
-              </div>
-              <h3 className="heading-tertiary u-margin-bottom-32">
-                Understand and grow to meet your future needs
-              </h3>
-              <p className="product-feature__paragraph u-margin-bottom-32 u-border-bottom u-padding-bottom-32">
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate ducimus numquam asperiores modi tempora error!
-                Architecto nam amet illum hic. Tempora maiores atque nisi
-                laboriosam nobis quam cum facilis nulla.
-              </p>
-              <Quote
-                src="imgs/profile-photo-resized.jpg"
-                alt="Woman profile pic"
-                name="Founder at Prestige"
-              >
-                {" "}
-                &quot;You can't continue to win if you forget everything you have learned.&quot;
-              </Quote>
-            </div>
-            <div className="product-feature__image-col"></div>
+          <div className="u-margin-bottom-120">
+            <ProductFeature />
           </div>
         </section>
       </main>
