@@ -92,7 +92,7 @@ export default function Home() {
                 src="imgs/profile-photo-resized.jpg"
                 alt="Woman profile pic"
                 name="Founder at Prestige"
-              >
+              >GI
                 {" "}
                 &quot;You can't continue to win if you forget everything you have learned.&quot;
               </Quote>
