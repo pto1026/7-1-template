@@ -13,6 +13,10 @@ import FeaturesBtns from "../components/features-btns";
 import Quote from "../components/quote";
 import ProductFeature from "../components/product-feature";
 import Steps from "../components/steps";
+import Review from '../components/review';
+import Stats from '../components/stats';
+import Stat from '../components/stat';
+import ButtonUnderline from '../components/button-underline';
 
 export default function Home() {
   return (
@@ -92,6 +96,21 @@ export default function Home() {
           <div className="u-margin-bottom-120">
             <Steps />
           </div>
+        </section>
+        <section className="section-reviews u-padding-top-96">
+          <div className="reviews">
+            <Review by="Andrew Burlovski - CEO at Prestige">Our customer retention rates doubled.  Elite makes it easy to decode product usage and show us what works.</Review>
+            <Review by="Robert Handrover - Founder at Prestige">We're building better futures together, thanks to Elite.  It helped us see the obvious facts hidden in our data.</Review>
+          </div>
+          <Stats>
+            <Stat statistic="4.97/5">Rating on review sites such as Capterra, G2</Stat>
+            <div className="u-border-top u-padding-top-32">
+            <Stat statistic="87%">87% of our customers say they'd kill another person for our product</Stat>
+            </div>
+            <div className="u-border-top u-padding-top-32"></div>
+            <Stat statistic="250M+">Users currently loving Elite</Stat>
+          </Stats>
+          <ButtonUnderline>See All Reviews &rarr;</ButtonUnderline>
         </section>
       </main>
     </React.Fragment>

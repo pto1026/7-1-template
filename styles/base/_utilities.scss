@@ -66,12 +66,24 @@
     padding-bottom: 3.2rem;
   }
 
+  &-padding-top-32 {
+    padding-top: 3.2rem;
+  }
+
   &-padding-top-48 {
     padding-top: 4.8rem;
   }
 
+  &-padding-top-96 {
+    padding-top: 9.6rem;
+  }
+
   &-border-bottom {
     border-bottom: 3px solid var(--gray-3);
+  }
+
+  &-border-top {
+    border-top: 3px solid var(--gray-3);
   }
 
 
