@@ -10,6 +10,7 @@ import AboutUs from "../components/about-us";
 import AboutSection from "../components/about-section";
 import StatsSection from "../components/stats-section";
 import FeaturesBtns from "../components/features-btns";
+import Quote from '../components/quote';
 
 export default function Home() {
   return (
@@ -88,7 +89,7 @@ export default function Home() {
                 laboriosam nobis quam cum facilis nulla.
               </p>
               <Quote
-                src="imgs/profile-photo-1-resized.jpg"
+                src="imgs/profile-photo-resized.jpg"
                 alt="Woman profile pic"
                 name="Founder at Prestige"
               >
