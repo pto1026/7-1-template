@@ -12,7 +12,7 @@ import StatsSection from "../components/stats-section";
 import FeaturesBtns from "../components/features-btns";
 import Quote from "../components/quote";
 import ProductFeature from "../components/product-feature";
-import Steps from '../components/steps';
+import Steps from "../components/steps";
 
 export default function Home() {
   return (
@@ -80,7 +80,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-how-it-works">
+        <section className="section-how-it-works container">
           <div className="section-how-it-works__header u-text-center">
             <div className="u-text-main u-margin-bottom-32">
               <h2 className="heading-secondary">How it works</h2>
@@ -89,8 +89,9 @@ export default function Home() {
               Getting started is as easy as possible...
             </h3>
           </div>
-
-          <Steps />
+          <div className="u-margin-bottom-120">
+            <Steps />
+          </div>
         </section>
       </main>
     </React.Fragment>
