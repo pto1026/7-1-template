@@ -20,7 +20,9 @@
     }
 
     &__image-box {
-        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.6rem;
     }
 
     &__img {
@@ -28,19 +30,16 @@
 
         &--one {
             width: 65%;
-            position: absolute;
-            top: -2rem;
-            left: -2rem;
+            grid-column: 1 / -1;
+            
         }
 
         &--two {
             width: 35%;
-            position: absolute;
         }
 
         &--three {
             width: 25%;
-            position: absolute;
 
         }
     }
