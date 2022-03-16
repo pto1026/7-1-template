@@ -35,13 +35,13 @@ export default function ProductFeature() {
             className="product-feature__img product-feature__img--one"
           />
           <img
-            src="imgs/portfolio.jpg"
-            alt="Portfolio image"
+            src="imgs/doge.jpg"
+            alt="Dogecoin image"
             className="product-feature__img product-feature__img--two"
           />
           <img
-            src="imgs/portfolio.jpg"
-            alt="Portfolio image"
+            src="imgs/amc.jpg"
+            alt="AMC image"
             className="product-feature__img product-feature__img--three"
           />
         </div>
