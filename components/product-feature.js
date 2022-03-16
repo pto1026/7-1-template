@@ -28,7 +28,7 @@ export default function ProductFeature() {
         </Quote>
       </div>
       <div className="product-feature__image-col">
-        <div className="product-feature_img-box">
+        <div className="product-feature__img-box">
           <img
             src="imgs/portfolio.jpg"
             alt="Portfolio image"

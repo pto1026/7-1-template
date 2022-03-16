@@ -78,6 +78,8 @@ export default function Home() {
             <ProductFeature />
           </div>
         </section>
+
+        
       </main>
     </React.Fragment>
   );

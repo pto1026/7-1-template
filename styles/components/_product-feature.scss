@@ -3,6 +3,7 @@
     gap: 9.6rem;
     padding-left: 3.2rem;
     padding-right: 3.2rem;
+    align-items: center;
 
     &__text-col {
         flex: 0 0 calc((100% - 9.6rem) / 2);
@@ -17,29 +18,38 @@
 
     &__image-col {
         background-color: var(--main-color-lightest);
+        border-radius: 1.1rem;
+
     }
 
-    &__image-box {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 1.6rem;
+    &__img-box {
+        padding: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        align-items: center;
+        justify-content: center;
     }
 
     &__img {
+        border-radius: 1.1rem;
         display: inline-block;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.075);
 
         &--one {
             width: 65%;
-            grid-column: 1 / -1;
+            flex: 0 0 100%;
             
         }
 
         &--two {
             width: 35%;
+           
         }
 
         &--three {
             width: 25%;
+        
 
         }
     }
