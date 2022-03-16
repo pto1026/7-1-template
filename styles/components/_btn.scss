@@ -30,4 +30,15 @@
     background-color: var(--main-color-darkest);
     color: var(--main-color-lightest);
   }
+
+  &--plain:link, &--secondary:link, &--plain:visited, &--secondary:visited {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  &--secondary:link, &--secondary:visited {
+    color: var(--main-color);
+  }
 }

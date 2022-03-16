@@ -1,5 +1,5 @@
-import Quote from './quote';
-import StatBox from './stat-box';
+import Quote from "./quote";
+import StatBox from "./stat-box";
 
 export default function AboutUs() {
   return (
@@ -15,7 +15,14 @@ export default function AboutUs() {
         corporis nam laudantium earum praesentium beatae.
       </p>
       <StatBox />
-      <Quote />
+      <Quote
+        src="imgs/profile-photo-2-resized.jpg"
+        alt="Happy woman profile pic"
+        name="Founder & CEO, Martha"
+      >
+        {" "}
+        &quot;Elite is for teams that care about their product image.&quot;
+      </Quote>
     </div>
   );
 }
