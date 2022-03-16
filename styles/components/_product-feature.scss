@@ -1,0 +1,47 @@
+.product-feature {
+    display: flex;
+    gap: 9.6rem;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+
+    &__text-col {
+        flex: 0 0 calc((100% - 9.6rem) / 2);
+
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+        line-height: 1.7;
+
+    }
+
+    &__image-col {
+        background-color: var(--main-color-lightest);
+    }
+
+    &__image-box {
+        position: relative;
+    }
+
+    &__img {
+        display: inline-block;
+
+        &--one {
+            width: 65%;
+            position: absolute;
+            top: -2rem;
+            left: -2rem;
+        }
+
+        &--two {
+            width: 35%;
+            position: absolute;
+        }
+
+        &--three {
+            width: 25%;
+            position: absolute;
+
+        }
+    }
+}
