@@ -16,3 +16,24 @@
     align-items: center;
     
 }
+
+.section-reviews {
+
+    background-color: var(--main-color-lightest);
+    
+    &__main {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+        gap: 9.6rem;
+    }
+
+    &__stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 6rem;
+
+    }
+}
