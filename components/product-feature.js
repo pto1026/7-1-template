@@ -23,7 +23,7 @@ export default function ProductFeature() {
           name="Founder at Prestige"
         >
           {" "}
-          &quot;You can't continue to win if you forget everything you have
+          &quot;You can&apos;t continue to win if you forget everything you have
           learned.&quot;
         </Quote>
       </div>
