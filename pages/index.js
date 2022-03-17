@@ -180,7 +180,7 @@ export default function Home() {
             <h3 className="heading-tertiary">Read latest blogs</h3>
           </header>
 
-          <div className="resources">
+          <div className="resources u-margin-bottom-120">
             <figure className="blog-post">
               <img
                 className="blog-post__image u-margin-bottom-48"

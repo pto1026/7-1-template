@@ -1,0 +1,41 @@
+.blog-post {
+    flex: 0 0 calc((100% - 2 * 2.4rem) / 3);
+
+    position: relative;
+    z-index: 10;
+
+    &__image {
+        width: 100%;
+        border-radius: 3px;
+
+      
+
+       
+    }
+
+    &__text {
+
+    }
+
+    &__paragraph {
+        font-size: 1.6rem;
+        line-height: 1.7;
+    }
+
+    &::after {
+        content: "Business";
+        position: absolute;
+        top: 3rem;
+        left: 3rem;
+        z-index: 20;
+        background-color: #fff;
+        padding: .8rem 1.6rem;
+        border-radius: 100rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 1.8;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    }
+}
