@@ -38,7 +38,7 @@ export default function PricingCards() {
           </li>
         </ul>
         <div className="pricing-card__button">
-          <ButtonPrimary>Start Free Trial</ButtonPrimary>
+          <a href="#" className="pricing-button btn">Start free trial</a>
         </div>
       </div>
       <div className="pricing-card pricing-card--active">
@@ -84,7 +84,7 @@ export default function PricingCards() {
           </li>
         </ul>
         <div className="pricing-card__button pricing-card__button--active">
-          <ButtonPrimary>Start Free Trial</ButtonPrimary>
+          <a href="#" className="pricing-button btn">Start free trial</a>
         </div>
       </div>
       <div className="pricing-card">
@@ -138,7 +138,7 @@ export default function PricingCards() {
           </li>
         </ul>
         <div className="pricing-card__button">
-          <ButtonPrimary>Start Free Trial</ButtonPrimary>
+          <a href="#" className="pricing-button btn">Start free trial</a>
         </div>
       </div>
       <div className="pricing-card">
@@ -176,7 +176,7 @@ export default function PricingCards() {
           </li>
         </ul>
         <div className="pricing-card__button">
-          <ButtonPrimary>Start Free Trial</ButtonPrimary>
+          <a href="#" className="pricing-button btn">Start free trial</a>
         </div>
       </div>
     </div>
