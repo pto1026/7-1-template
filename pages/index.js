@@ -24,6 +24,8 @@ import Reviews from "../components/reviews";
 import PricingCards from "../components/pricing-cards";
 import Question from "../components/question";
 import Faq from "../components/faq";
+import Resources from "../components/resources";
+import Logos from "../components/logos";
 
 export default function Home() {
   return (
@@ -180,60 +182,64 @@ export default function Home() {
             <h3 className="heading-tertiary">Read latest blogs</h3>
           </header>
 
-          <div className="resources u-margin-bottom-120">
-            <figure className="blog-post">
-              <img
-                className="blog-post__image u-margin-bottom-48"
-                src="imgs/suit-man-resized.jpg"
-                alt="Man in a red suit"
-              />
-              <figcaption className="blog-post__text">
-                <h4 className="heading-four u-margin-bottom-32">
-                  The Art of Reading Customers
-                </h4>
-                <p className="blog-post__paragraph">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Error soluta iure fugit quibusdam assumenda quaerat illo eos
-                  doloremque! Minima laudantium eum magnam odio odit recusandae.
-                </p>
-              </figcaption>
-            </figure>
-            <figure className="blog-post">
-              <img
-                className="blog-post__image u-margin-bottom-48"
-                src="imgs/bookshelf-resized.jpg"
-                alt="Bookshelf"
-              />
-              <figcaption className="blog-post__text">
-                <h4 className="heading-four u-margin-bottom-32">
-                  Fix the one mistake everyone makes
-                </h4>
-                <p className="blog-post__paragraph">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                  molestias assumenda itaque in recusandae a accusamus dolores
-                  nostrum placeat inventore repudiandae earum sint, quo
-                  laudantium quia dolorum nesciunt porro veritatis!
-                </p>
-              </figcaption>
-            </figure>
-            <figure className="blog-post">
-              <img
-                className="blog-post__image u-margin-bottom-48"
-                src="imgs/whiteboard-presentation-resized.jpg"
-                alt="Whiteboard presentation"
-              />
-              <figcaption className="blog-post__text">
-                <h4 className="heading-four u-margin-bottom-32">
-                  Best tools in the industry
-                </h4>
-                <p className="blog-post__paragraph">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Temporibus mollitia reiciendis nemo nesciunt, aspernatur, vero
-                  obcaecati odio omnis.
-                </p>
-              </figcaption>
-            </figure>
+          <Resources />
+        </section>
+
+        <section className="section-logos container u-padding-top-96 u-margin-bottom-120">
+          <Logos>
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-1.svg"
+              alt="Logoipsum logo"
+            />
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-2.svg"
+              alt="Logoipsum logo"
+            />
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-3.svg"
+              alt="Logoipsum logo"
+            />
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-4.svg"
+              alt="Logoipsum logo"
+            />
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-5.svg"
+              alt="Logoipsum logo"
+            />
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-6.svg"
+              alt="Logoipsum logo"
+            />
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-7.svg"
+              alt="Logoipsum logo"
+            />
+            <img
+              className="logo"
+              src="icons/logoipsum-logo-8.svg"
+              alt="Logoipsum logo"
+            />
+          </Logos>
+        </section>
+
+        <section className="cta container u-padding-top-96 u-padding-bottom-96">
+          <div className="cta__text u-text-white">
+            <h2 className="heading-secondary u-margin-bottom-32">
+              Start your free trial
+            </h2>
+            <h3 className="heading-tertiary u-margin-bottom-48">Ready to transform your future?</h3>
+
+            <a className="cta__button" href="#">Get started for free &rarr;</a>
           </div>
+          <img className="cta__image" src="imgs/sunset.jpg" alt="Sunset photo" />
         </section>
       </main>
     </React.Fragment>
