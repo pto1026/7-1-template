@@ -1,0 +1,31 @@
+.customer-story {
+    background-image: linear-gradient(to bottom right, var(--main-color-dark), var(--main-color-dark-4));
+    // background-color: var(--main-color);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 9.6rem;
+
+    &__paragraph {
+        font-size: 1.8rem;
+        line-height: 1.7;
+    }
+    
+    &__btns {
+        display: flex;
+
+    }
+
+    &__main-btn {
+        margin-right: 2.4rem;
+    }
+
+    &__transparent-btn {
+
+    }
+
+    &__icon {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+}

@@ -47,4 +47,21 @@
     border-radius: 0;
     padding: 0 .5rem 1.2rem .5rem;
   }
+
+  &--white:link, &--white:visited {
+    background-color: #fff;
+  }
+
+  &--white:hover, &--white:active {
+    background-color: var(--main-color-darkest);
+    color: var(--main-color-lightest);
+  }
+
+  &--transparent:link, &--transparent:visited {
+  }
+
+  &--transparent:hover, &--transparent:active {
+    background-color: var(--main-color-lightest);
+    color: var(--main-color-darkest);
+  }
 }

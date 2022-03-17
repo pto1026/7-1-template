@@ -17,6 +17,8 @@ import Review from "../components/review";
 import Stats from "../components/stats";
 import Stat from "../components/stat";
 import ButtonUnderline from "../components/button-underline";
+import ButtonTransparent from '../components/button-transparent';
+import ButtonWhite from '../components/button-white';
 
 export default function Home() {
   return (
@@ -106,8 +108,8 @@ export default function Home() {
                   decode product usage and show us what works.
                 </Review>
                 <Review by="Robert Handrover - Founder at Prestige">
-                  We're building better futures together, thanks to Elite. It
-                  helped us see the obvious facts hidden in our data.
+                  We&apos;re building better futures together, thanks to Elite.
+                  It helped us see the obvious facts hidden in our data.
                 </Review>
               </div>
               <Stats>
@@ -116,8 +118,8 @@ export default function Home() {
                 </Stat>
                 <div className="u-border-top u-padding-top-32">
                   <Stat statistic="87%">
-                    87% of our customers say they'd kill another person for our
-                    product
+                    87% of our customers say they&apos;d kill another person for
+                    our product
                   </Stat>
                 </div>
                 <div className="u-border-top u-padding-top-32">
@@ -125,8 +127,42 @@ export default function Home() {
                 </div>
               </Stats>
             </div>
-            <div className="u-text-center u-text-main">
+            <div className="u-text-center u-text-main u-padding-bottom-96">
               <ButtonUnderline>See All Reviews &rarr;</ButtonUnderline>
+            </div>
+          </div>
+        </section>
+
+        <section className="section-customer-story container">
+          <img
+            className="section-customer-story__image"
+            src="imgs/flower.jpg"
+            alt="Flower image"
+          />
+          <div className="customer-story u-text-white u-text-center">
+            <h2 className="heading-secondary u-margin-bottom-24">
+              Customer story
+            </h2>
+            <h3 className="heading-tertiary u-margin-bottom-30">
+              Andre Blisant
+            </h3>
+            <p className="customer-story__paragraph u-margin-bottom-24">
+              &quot;If my product product has a million customers, 500 thousand
+              are thanks to Elite&quot;
+            </p>
+            <div className="customer-story__btns">
+              <div className="customer-story__main-btn u-text-main">
+                <ButtonWhite>View customer story</ButtonWhite>
+              </div>
+              <div className="customer-story__transparent-btn">
+                <ButtonTransparent>
+                  <img
+                    src="icons/play-fill.svg"
+                    alt="Play icon"
+                    className="customer-story__icon"
+                  /> Watch story &bull; 5:47
+                </ButtonTransparent>
+              </div>
             </div>
           </div>
         </section>
