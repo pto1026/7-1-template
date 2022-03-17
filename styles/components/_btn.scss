@@ -6,66 +6,77 @@
     text-decoration: none;
     color: inherit;
     border-radius: 1.1rem;
-    transition: all .2s;
+    transition: all 0.2s;
     display: inline-block;
   }
 
-  &--primary:link, &--primary:visited {
-      background-color: var(--main-color);
-      color: #fff;
-      padding: 1.5rem 3rem;
+  &--primary:link,
+  &--primary:visited {
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1.5rem 3rem;
   }
 
-  &--primary:hover, &--primary:active {
-      background-color: var(--main-color-dark);
+  &--primary:hover,
+  &--primary:active {
+    background-color: var(--main-color-dark);
   }
 
-  &--outline:link, &--outline:visited {
+  &--outline:link,
+  &--outline:visited {
     background-color: var(--gray-0);
     color: var(--main-color);
     padding: 1.5rem 3rem;
-    
   }
 
-  &--outline:hover, &--outline:active {
+  &--outline:hover,
+  &--outline:active {
     background-color: var(--main-color-darkest);
     color: var(--main-color-lightest);
   }
 
-  &--plain:link, &--secondary:link, &--plain:visited, &--secondary:visited {
+  &--plain,
+  &--secondary {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
     padding: 1.5rem 3rem;
+    cursor: pointer;
   }
 
-  &--secondary:link, &--secondary:visited {
+  &--secondary {
     color: var(--main-color);
     padding: 1.5rem 3rem;
+    cursor: auto;
   }
 
-  &--underline:link, &--underline:visited {
+  &--underline:link,
+  &--underline:visited {
     border-bottom: 3px solid currentColor;
     border-radius: 0;
-    padding: 0 .5rem 1.2rem .5rem;
+    padding: 0 0.5rem 1.2rem 0.5rem;
   }
 
-  &--white:link, &--white:visited {
+  &--white:link,
+  &--white:visited {
     background-color: #fff;
     padding: 1.5rem 3rem;
   }
 
-  &--white:hover, &--white:active {
+  &--white:hover,
+  &--white:active {
     background-color: var(--main-color-darkest);
     color: var(--main-color-lightest);
   }
 
-  &--transparent:link, &--transparent:visited {
+  &--transparent:link,
+  &--transparent:visited {
     padding: 1.5rem 3rem;
   }
 
-  &--transparent:hover, &--transparent:active {
+  &--transparent:hover,
+  &--transparent:active {
     background-color: var(--main-color-lightest);
     color: var(--main-color);
   }

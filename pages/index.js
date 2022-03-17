@@ -26,8 +26,19 @@ import Question from "../components/question";
 import Faq from "../components/faq";
 import Resources from "../components/resources";
 import Logos from "../components/logos";
+import {useState} from 'react'
 
 export default function Home() {
+  const [state, setState] = useState({ toggle: 0 })
+
+  const handleFeaturesClick = (e) => {
+    e.preventDefault();
+    if (state.toggle === 0) {
+      setState({ ...state, toggle: 1 })
+    } else {
+      setState({ ...state, toggle: 0 })
+    }
+  }
   return (
     <React.Fragment>
       <Head>
@@ -86,10 +97,10 @@ export default function Home() {
           </div>
 
           <div className="section-product-features__toggle u-margin-bottom-96">
-            <FeaturesBtns />
+            <FeaturesBtns toggle={state.toggle} handler={handleFeaturesClick} />
           </div>
           <div className="u-margin-bottom-120">
-            <ProductFeature />
+            <ProductFeature toggle={state.toggle} />
           </div>
         </section>
 

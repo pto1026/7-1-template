@@ -82,3 +82,43 @@
     padding-left: 3.2rem;
     padding-right: 3.2rem;
 }
+
+@media (max-width: 67.5rem) {
+    .step {
+
+        &__icon {
+            width: 6rem;
+            height: 6rem;
+        }
+    }
+}
+
+@media (max-width: 61.31rem) {
+    .steps {
+        gap: 3.2rem;
+    }
+}
+
+@media (max-width: 52.75rem) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .pricing-card {
+        flex: 0 0 calc((100% - 1.6rem) / 2);
+    }
+
+    .pricing-cards {
+        flex-wrap: wrap;
+    }
+
+    .section-customer-story {
+        flex-wrap: wrap;
+
+        &__image {
+            width: 100%;
+        }
+    }
+}
+
+// Left off at ~860px

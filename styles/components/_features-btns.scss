@@ -7,11 +7,16 @@
     &__btn {
         flex: 0 0 50%;
         border-radius: 1.1rem;
+        cursor: pointer;
+        
+
 
         &--active {
             background-color: var(--main-color-lightest);
-
+            cursor: auto;
         }
+
+        
     }
 
     &__icon {
