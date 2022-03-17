@@ -17,10 +17,10 @@ import Review from "../components/review";
 import Stats from "../components/stats";
 import Stat from "../components/stat";
 import ButtonUnderline from "../components/button-underline";
-import ButtonTransparent from '../components/button-transparent';
-import ButtonWhite from '../components/button-white';
-import CustomerStory from '../components/customer-story';
-import Reviews from '../components/reviews';
+import ButtonTransparent from "../components/button-transparent";
+import ButtonWhite from "../components/button-white";
+import CustomerStory from "../components/customer-story";
+import Reviews from "../components/reviews";
 
 export default function Home() {
   return (
@@ -126,7 +126,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section-customer-story container">
+        <section className="section-customer-story container u-margin-bottom-120">
           <img
             className="section-customer-story__image"
             src="imgs/flower.jpg"
@@ -135,7 +135,19 @@ export default function Home() {
           <CustomerStory />
         </section>
 
-        
+        <section className="section-pricing container">
+          <header className="section-pricing__header">
+            <div className="section-pricing__text">
+              <div className="u-text-main">
+                <h2 className="heading-secondary">Pricing plan</h2>
+              </div>
+              <h3 className="heading-tertiary">Simple, affordable pricing for everyone.</h3>
+            </div>
+            <div className="section-pricing__toggle">
+              <span className="section-pricing__monthly">Monthly</span><img className="section-pricing__toggle-icon" src="icons/toggle-left-fill.svg" alt="Toggle icon" /><span className="section-pricing__yearly">Yearly</span>
+            </div>
+          </header>
+        </section>
       </main>
     </React.Fragment>
   );
