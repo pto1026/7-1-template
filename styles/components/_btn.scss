@@ -41,4 +41,10 @@
   &--secondary:link, &--secondary:visited {
     color: var(--main-color);
   }
+
+  &--underline:link, &--underline:visited {
+    border-bottom: 3px solid currentColor;
+    border-radius: 0;
+    padding: 0 .5rem 1.2rem .5rem;
+  }
 }

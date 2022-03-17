@@ -1,0 +1,11 @@
+.stars {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.star {
+    width: 2rem;
+    height: 2rem;
+}

@@ -10,7 +10,13 @@ import AboutUs from "../components/about-us";
 import AboutSection from "../components/about-section";
 import StatsSection from "../components/stats-section";
 import FeaturesBtns from "../components/features-btns";
-import Quote from '../components/quote';
+import Quote from "../components/quote";
+import ProductFeature from "../components/product-feature";
+import Steps from "../components/steps";
+import Review from "../components/review";
+import Stats from "../components/stats";
+import Stat from "../components/stat";
+import ButtonUnderline from "../components/button-underline";
 
 export default function Home() {
   return (
@@ -73,34 +79,61 @@ export default function Home() {
           <div className="section-product-features__toggle u-margin-bottom-96">
             <FeaturesBtns />
           </div>
-          <div className="product-feature">
-            <div className="product-feature__text-col">
-              <div className="u-text-main u-margin-bottom-24">
-                <h2 className="heading-secondary">Product Feature 1</h2>
-              </div>
-              <h3 className="heading-tertiary u-margin-bottom-32">
-                Understand and grow to meet your future needs
-              </h3>
-              <p className="product-feature__paragraph u-margin-bottom-32 u-border-bottom u-padding-bottom-32">
-                {" "}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Cupiditate ducimus numquam asperiores modi tempora error!
-                Architecto nam amet illum hic. Tempora maiores atque nisi
-                laboriosam nobis quam cum facilis nulla.
-              </p>
-              <Quote
-                src="imgs/profile-photo-resized.jpg"
-                alt="Woman profile pic"
-                name="Founder at Prestige"
-              >GI
-                {" "}
-                &quot;You can't continue to win if you forget everything you have learned.&quot;
-              </Quote>
+          <div className="u-margin-bottom-120">
+            <ProductFeature />
+          </div>
+        </section>
+
+        <section className="section-how-it-works container">
+          <div className="section-how-it-works__header u-text-center">
+            <div className="u-text-main u-margin-bottom-32">
+              <h2 className="heading-secondary">How it works</h2>
             </div>
-            <div className="product-feature__image-col"></div>
+            <h3 className="heading-tertiary u-margin-bottom-60">
+              Getting started is as easy as possible...
+            </h3>
+          </div>
+          <div className="u-margin-bottom-120">
+            <Steps />
+          </div>
+        </section>
+        <section className="section-reviews u-padding-top-96">
+          <div className="container">
+            <div className="section-reviews__main u-margin-bottom-48">
+              <div className="reviews u-text-center">
+                <Review by="Andrew Burlovski - CEO at Prestige">
+                  Our customer retention rates doubled. Elite makes it easy to
+                  decode product usage and show us what works.
+                </Review>
+                <Review by="Robert Handrover - Founder at Prestige">
+                  We're building better futures together, thanks to Elite. It
+                  helped us see the obvious facts hidden in our data.
+                </Review>
+              </div>
+              <Stats>
+                <Stat statistic="4.97/5">
+                  Rating on review sites such as Capterra, G2
+                </Stat>
+                <div className="u-border-top u-padding-top-32">
+                  <Stat statistic="87%">
+                    87% of our customers say they'd kill another person for our
+                    product
+                  </Stat>
+                </div>
+                <div className="u-border-top u-padding-top-32">
+                  <Stat statistic="250M+">Users currently loving Elite</Stat>
+                </div>
+              </Stats>
+            </div>
+            <div className="u-text-center u-text-main">
+              <ButtonUnderline>See All Reviews &rarr;</ButtonUnderline>
+            </div>
           </div>
         </section>
       </main>
+
+
+      
     </React.Fragment>
   );
 }
