@@ -1,0 +1,13 @@
+.social-icons {
+    display: flex;
+    gap: .8rem;
+    
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        box-sizing: content-box;
+        padding: 1rem;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+}
