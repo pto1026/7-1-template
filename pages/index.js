@@ -21,7 +21,9 @@ import ButtonTransparent from "../components/button-transparent";
 import ButtonWhite from "../components/button-white";
 import CustomerStory from "../components/customer-story";
 import Reviews from "../components/reviews";
-import PricingCards from '../components/pricing-cards';
+import PricingCards from "../components/pricing-cards";
+import Question from "../components/question";
+import Faq from '../components/faq';
 
 export default function Home() {
   return (
@@ -31,7 +33,7 @@ export default function Home() {
       </Head>
       <div className="header container u-text-center">
         <div className="u-text-main">
-          <h2 className="heading-secondary u-margin-bottom-20">
+          <h2 className="heading-secondary u-margin-bottom-32">
             The template for high-performing startups
           </h2>
         </div>
@@ -55,7 +57,7 @@ export default function Home() {
         <section className="section-features container u-margin-bottom-120">
           <div className="section-features__header u-text-center">
             <div className="u-text-main">
-              <h2 className="heading-secondary u-margin-bottom-20">
+              <h2 className="heading-secondary u-margin-bottom-32">
                 Product Feature Grid
               </h2>
             </div>
@@ -139,7 +141,7 @@ export default function Home() {
         <section className="section-pricing container">
           <header className="section-pricing__header u-margin-bottom-48">
             <div className="section-pricing__text">
-              <div className="u-text-main u-margin-bottom-24">
+              <div className="u-text-main u-margin-bottom-32">
                 <h2 className="heading-secondary">Pricing plan</h2>
               </div>
               <h3 className="heading-tertiary">
@@ -157,6 +159,28 @@ export default function Home() {
             </div>
           </header>
           <PricingCards />
+        </section>
+
+        <section className="section-faq container u-padding-top-96">
+          <header className="section-faq__header u-text-center u-margin-bottom-48">
+            <div className="u-text-main u-margin-bottom-32">
+              <h2 className="heading-secondary">Common Questions</h2>
+            </div>
+            <h3 className="heading-tertiary">Frequently Asked Questions</h3>
+          </header>
+
+          <Faq />
+        </section>
+
+        <section className="section-resources container u-padding-top-96">
+          <header className="section-resources__header u-text-center u-margin-bottom-60">
+            <div className="u-text-main u-margin-bottom-32">
+              <h2 className="heading-secondary">Resources</h2>
+            </div>
+            <h3 className="heading-tertiary">Read latest blogs</h3>
+          </header>
+
+          
         </section>
       </main>
     </React.Fragment>
