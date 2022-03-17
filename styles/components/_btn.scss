@@ -3,7 +3,6 @@
   &:visited {
     font-size: 1.8rem;
     font-weight: 600;
-    padding: 1.5rem 3rem;
     text-decoration: none;
     color: inherit;
     border-radius: 1.1rem;
@@ -14,6 +13,7 @@
   &--primary:link, &--primary:visited {
       background-color: var(--main-color);
       color: #fff;
+      padding: 1.5rem 3rem;
   }
 
   &--primary:hover, &--primary:active {
@@ -23,6 +23,7 @@
   &--outline:link, &--outline:visited {
     background-color: var(--gray-0);
     color: var(--main-color);
+    padding: 1.5rem 3rem;
     
   }
 
@@ -36,15 +37,36 @@
     align-items: center;
     justify-content: center;
     gap: 2rem;
+    padding: 1.5rem 3rem;
   }
 
   &--secondary:link, &--secondary:visited {
     color: var(--main-color);
+    padding: 1.5rem 3rem;
   }
 
   &--underline:link, &--underline:visited {
     border-bottom: 3px solid currentColor;
     border-radius: 0;
     padding: 0 .5rem 1.2rem .5rem;
+  }
+
+  &--white:link, &--white:visited {
+    background-color: #fff;
+    padding: 1.5rem 3rem;
+  }
+
+  &--white:hover, &--white:active {
+    background-color: var(--main-color-darkest);
+    color: var(--main-color-lightest);
+  }
+
+  &--transparent:link, &--transparent:visited {
+    padding: 1.5rem 3rem;
+  }
+
+  &--transparent:hover, &--transparent:active {
+    background-color: var(--main-color-lightest);
+    color: var(--main-color);
   }
 }

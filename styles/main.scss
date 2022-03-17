@@ -17,6 +17,12 @@
 @import "components/stars";
 @import "components/review";
 @import "components/stat";
+@import "components/customer-story";
+@import "components/pricing-card";
+@import "components/question";
+@import "components/blog-post";
+@import "components/logo";
+@import "components/cta";
 
 @import "layout/about";
 @import "layout/about-us";
@@ -24,5 +30,9 @@
 @import "layout/features";
 @import "layout/steps";
 @import "layout/reviews";
+@import "layout/pricing-cards";
+@import "layout/faq";
+@import "layout/resources";
+@import "layout/logos";
 
 @import "pages/home";
