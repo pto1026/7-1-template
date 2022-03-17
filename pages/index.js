@@ -19,6 +19,8 @@ import Stat from "../components/stat";
 import ButtonUnderline from "../components/button-underline";
 import ButtonTransparent from '../components/button-transparent';
 import ButtonWhite from '../components/button-white';
+import CustomerStory from '../components/customer-story';
+import Reviews from '../components/reviews';
 
 export default function Home() {
   return (
@@ -102,16 +104,7 @@ export default function Home() {
         <section className="section-reviews u-padding-top-96">
           <div className="container">
             <div className="section-reviews__main u-margin-bottom-48">
-              <div className="reviews u-text-center">
-                <Review by="Andrew Burlovski - CEO at Prestige">
-                  Our customer retention rates doubled. Elite makes it easy to
-                  decode product usage and show us what works.
-                </Review>
-                <Review by="Robert Handrover - Founder at Prestige">
-                  We&apos;re building better futures together, thanks to Elite.
-                  It helped us see the obvious facts hidden in our data.
-                </Review>
-              </div>
+              <Reviews />
               <Stats>
                 <Stat statistic="4.97/5">
                   Rating on review sites such as Capterra, G2
@@ -139,33 +132,10 @@ export default function Home() {
             src="imgs/flower.jpg"
             alt="Flower image"
           />
-          <div className="customer-story u-text-white u-text-center">
-            <h2 className="heading-secondary u-margin-bottom-24">
-              Customer story
-            </h2>
-            <h3 className="heading-tertiary u-margin-bottom-30">
-              Andre Blisant
-            </h3>
-            <p className="customer-story__paragraph u-margin-bottom-24">
-              &quot;If my product product has a million customers, 500 thousand
-              are thanks to Elite&quot;
-            </p>
-            <div className="customer-story__btns">
-              <div className="customer-story__main-btn u-text-main">
-                <ButtonWhite>View customer story</ButtonWhite>
-              </div>
-              <div className="customer-story__transparent-btn">
-                <ButtonTransparent>
-                  <img
-                    src="icons/play-fill.svg"
-                    alt="Play icon"
-                    className="customer-story__icon"
-                  /> Watch story &bull; 5:47
-                </ButtonTransparent>
-              </div>
-            </div>
-          </div>
+          <CustomerStory />
         </section>
+
+        
       </main>
     </React.Fragment>
   );
