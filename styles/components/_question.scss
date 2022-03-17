@@ -2,10 +2,12 @@
     flex: 0 0 calc((100% - 2rem) / 2);
     padding: 2rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     border: 2px solid var(--gray-3);
     border-radius: 1.1rem;
+    cursor: pointer;
 
 
     &__text {
@@ -16,5 +18,13 @@
     &__icon {
         width: 1.8rem;
         height: 1.8rem;
+    }
+
+    &__answer {
+        flex: 0 0 100%;
+        font-size: 1.6rem;
+        margin-top: 2rem;
+        border-top: 2px solid var(--gray-3);
+        padding-top: 2rem;
     }
 }
