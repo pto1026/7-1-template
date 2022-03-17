@@ -45,3 +45,30 @@
         width: 45%;
     }
 }
+
+.section-pricing {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    &__text {
+
+    }
+
+    &__toggle {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.6rem;
+    }
+
+    &__toggle-icon {
+        width: 4rem;
+        height: 4rem;
+    }
+}

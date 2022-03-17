@@ -12,12 +12,9 @@
   }
 
   &--primary:link, &--primary:visited {
-      background-color: var(--main-color);
-      color: #fff;
   }
 
   &--primary:hover, &--primary:active {
-      background-color: var(--main-color-dark);
   }
 
   &--outline:link, &--outline:visited {

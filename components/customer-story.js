@@ -1,3 +1,6 @@
+import ButtonWhite from './button-white';
+import ButtonTransparent from './button-transparent';
+
 export default function CustomerStory() {
   return (
     <div className="customer-story u-text-white u-text-center">
