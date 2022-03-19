@@ -56,6 +56,16 @@
     border-bottom: 3px solid currentColor;
     border-radius: 0;
     padding: 0 0.5rem 1.2rem 0.5rem;
+    // box-sizing: content-box;
+    line-height: 1.01;
+  }
+
+  &--underline:hover,
+  &--underline:active {
+    border: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-color-dark);
   }
 
   &--white:link,
